@@ -1,1 +1,10 @@
-h1 {color:lightgreen; font-family: 'Courier New', Courier, monospace}
+:root{
+    --bkg-colour: #f0feec;
+    --text-colour: #5a5a5a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+body{
+    background-color: var(--bkg-colour);
+}
